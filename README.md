@@ -72,7 +72,7 @@ Teszt kód
             {
                 k1.Elad(100);
             }
-            catch (Exception e)
+            catch (EladottMennyisegNagyobbKeszletnelKivetel e)
             {
                 Console.WriteLine(e.Message);
             }
